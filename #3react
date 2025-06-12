@@ -1,1 +1,28 @@
 In this I have created a new file in src using .jsx extension and I have created 2 Parellel projects ..
+
+App.jsx --
+import Chai from "./chai"
+
+function App() {
+  
+
+  return (
+    <>
+  <Chai/>
+  <h1>React with vite  | Suhani gohel</h1>
+  </>
+  )
+}
+
+export default App
+
+
+chai.jsx -- 
+
+function Chai() {
+    return (
+        <h1>SG</h1>
+    )
+}
+
+export default Chai
