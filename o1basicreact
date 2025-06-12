@@ -1,1 +1,27 @@
 Here I have basic knowledge of react and I learned how to use react library ..
+
+App.js
+
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+
+import App from './App.jsx'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
+
+index.js
+
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+
+import App from './App.jsx'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
